@@ -1,0 +1,9 @@
+[package]
+name = "cargo-doc-extract"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+quote = "1.0.47"
+syn = { version = "3.0.6", features = ["full", "extra-traits"] }
+walkdir = "2.5.0"
